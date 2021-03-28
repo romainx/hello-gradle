@@ -42,7 +42,7 @@ repositories {
 
 // tag::jar[]
 jar {
-    baseName = 'jb-hello-world'
+    baseName = 'hello-gradle'
     version =  '0.1.0'
 }
 // end::jar[]
@@ -56,9 +56,3 @@ dependencies {
     testCompile "junit:junit:4.12"
 }
 // end::dependencies[]
-
-// tag::wrapper[]
-task wrapper(type: Wrapper) {
-    gradleVersion = '3.5'
-}
-// end::wrapper[]
